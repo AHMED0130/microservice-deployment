@@ -1,6 +1,6 @@
 appName: frontend
 containerName: frontend-app
-containerImage: ahmed0130/microservice-emailservice
+containerImage: ahmed0130/microservice-frontend
 containerTag:  latest
 containerPort: 8080
 continerEnv:
@@ -19,8 +19,8 @@ continerEnv:
 - name: CHECKOUT_SERVICE_ADDR
   value: "checkoutservice:5050"
 - name: AD_SERVICE_ADDR
-  value: "adservice:9555"
+  value: "ad-service:9555"
 
-serviceName: email-service
+serviceName: frontend-service
 servicePort: 80
-serviceType: LoadBalancer
+serviceType: NodePort

@@ -9,5 +9,5 @@ continerEnv:
 - name: PRODUCT_CATALOG_SERVICE_ADDR
   value: "productcatalogservice:3550"
 
-serviceName: recommendation-service
+serviceName: recommendationservice
 servicePort: 8080

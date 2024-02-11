@@ -7,5 +7,5 @@ continerEnv:
 - name: PORT
   value: 8080
 
-serviceName: email-service
+serviceName: emailservice
 servicePort: 5000

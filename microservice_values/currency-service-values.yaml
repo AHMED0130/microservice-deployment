@@ -7,5 +7,5 @@ continerEnv:
 - name: PORT
   value: 7000
 
-serviceName: currency-service
+serviceName: currencyservice
 servicePort: 7000

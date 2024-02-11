@@ -7,5 +7,5 @@ continerEnv:
 - name: PORT
   value: 3550
 
-serviceName: productcatalog-service
+serviceName: productcatalogservice
 servicePort: 3550

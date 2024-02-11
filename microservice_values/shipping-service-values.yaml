@@ -7,5 +7,5 @@ continerEnv:
 - name: PORT
   value: 50051
 
-serviceName: shipping-service
+serviceName: shippingservice
 servicePort: 50051

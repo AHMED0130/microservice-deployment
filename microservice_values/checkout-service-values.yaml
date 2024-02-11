@@ -19,5 +19,5 @@ continerEnv:
 - name: CART_SERVICE_ADDR
   value: "cartservice:7070"
 
-serviceName: checkout-service
+serviceName: checkoutservice
 servicePort: 5050

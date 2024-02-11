@@ -9,5 +9,5 @@ continerEnv:
 - name: REDIS_ADDR
   value: "redis-cart:6379"
 
-serviceName: cart-service
+serviceName: cartservice
 servicePort: 7070
