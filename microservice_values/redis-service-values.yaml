@@ -1,4 +1,5 @@
 appName: redis
+replicas: 2
 containerName: redis-app
 containerImage: redis
 containerTag:  alpine

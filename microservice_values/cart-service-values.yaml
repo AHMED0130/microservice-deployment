@@ -1,4 +1,5 @@
 appName: cartservice
+replicas: 2
 containerName: cart-app
 containerImage: ahmed0130/microservice-cartservice
 containerTag:  latest

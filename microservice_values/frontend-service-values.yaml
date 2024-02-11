@@ -1,4 +1,5 @@
 appName: frontend
+replicas: 2
 containerName: frontend-app
 containerImage: ahmed0130/microservice-frontend
 containerTag:  latest
