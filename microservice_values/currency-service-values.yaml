@@ -1,0 +1,11 @@
+appName: currency-microservice
+containerName: currency-app
+containerImage: ahmed0130/microserivce-currencyservice
+containerTag:  latest
+containerPort: 7000
+continerEnv:
+- name: PORT
+  value: 7000
+
+serviceName: currency-service
+servicePort: 7000

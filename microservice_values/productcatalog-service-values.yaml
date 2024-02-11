@@ -1,0 +1,11 @@
+appName: productcatalog-microservice
+containerName: productcatalog-app
+containerImage: ahmed0130/microservice-productcatalogservice
+containerTag:  latest
+containerPort: 3550
+continerEnv:
+- name: PORT
+  value: 3550
+
+serviceName: productcatalog-service
+servicePort: 3550

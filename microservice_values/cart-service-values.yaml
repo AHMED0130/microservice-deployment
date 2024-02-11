@@ -1,0 +1,13 @@
+appName: cart-microservice
+containerName: cart-app
+containerImage: ahmed0130/microservice-emailservice
+containerTag:  latest
+containerPort: 7070
+continerEnv:
+- name: PORT
+  value: "7070"        
+- name: REDIS_ADDR
+  value: "redis-cart:6379"
+
+serviceName: cart-service
+servicePort: 7070

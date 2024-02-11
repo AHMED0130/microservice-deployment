@@ -1,0 +1,11 @@
+appName: email-microservice
+containerName: emial-app
+containerImage: ahmed0130/microservice-emailservice
+containerTag:  latest
+containerPort: 8080
+continerEnv:
+- name: PORT
+  value: 8080
+
+serviceName: email-service
+servicePort: 5000

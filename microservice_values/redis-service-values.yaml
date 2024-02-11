@@ -1,0 +1,7 @@
+appName: redis
+containerName: redis-app
+containerImage: redis
+containerTag:  alpine
+
+serviceName: redis-cart
+servicePort: 6379

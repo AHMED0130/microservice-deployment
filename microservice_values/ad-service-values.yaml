@@ -1,0 +1,11 @@
+appName: ad-microservice
+containerName: ad-app
+containerImage: ahmed0130/microservice-adservice
+containerTag:  latest
+containerPort: 9555
+continerEnv:
+- name: PORT
+  value: 9555
+
+serviceName: ad-service
+servicePort: 9555

@@ -1,0 +1,12 @@
+appName: microservice
+containerName: app
+containerImage: xxx
+containerTag:  v1.0.0
+containerPort: 80
+continerEnv:
+- name: ENV_ONE
+  value: env_one_value
+
+serviceName: service
+servicePort: 5000
+serviceType: ClusterIP

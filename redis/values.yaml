@@ -1,0 +1,11 @@
+appName: redis
+containerName: redis-app
+containerImage: redis
+containerTag:  latest
+containerPort: 6379
+mountPath: /data
+volumename: redis-data
+
+serviceName: redis-service
+servicePort: 6379
+serviceType: ClusterIP

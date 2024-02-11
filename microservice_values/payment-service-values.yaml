@@ -1,0 +1,11 @@
+appName: payment-microservice
+containerName: payment-app
+containerImage: ahmed0130/microservice-paymentservice
+containerTag:  latest
+containerPort: 50051
+continerEnv:
+- name: PORT
+  value: 50051
+
+serviceName: payment-service
+servicePort: 50051
