@@ -1,4 +1,4 @@
-appName: productcatalog-microservice
+appName: productcatalogservice
 containerName: productcatalog-app
 containerImage: ahmed0130/microservice-productcatalogservice
 containerTag:  latest

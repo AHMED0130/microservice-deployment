@@ -1,4 +1,4 @@
-appName: recommendation-microservice
+appName: recommendationservice
 containerName: recommendation-app
 containerImage: ahmed0130/microservice-recommendationservice
 containerTag:  latest

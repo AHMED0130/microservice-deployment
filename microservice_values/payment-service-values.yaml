@@ -1,4 +1,4 @@
-appName: payment-microservice
+appName: paymentservice
 containerName: payment-app
 containerImage: ahmed0130/microservice-paymentservice
 containerTag:  latest

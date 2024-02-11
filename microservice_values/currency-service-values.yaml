@@ -1,4 +1,4 @@
-appName: currency-microservice
+appName: currencyservice
 containerName: currency-app
 containerImage: ahmed0130/microserivce-currencyservice
 containerTag:  latest

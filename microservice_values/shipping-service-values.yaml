@@ -1,4 +1,4 @@
-appName: shipping-microservice
+appName: shippingservice
 containerName: shipping-app
 containerImage: ahmed0130/microservice-shippingservice
 containerTag:  latest

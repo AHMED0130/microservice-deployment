@@ -17,10 +17,10 @@ continerEnv:
 - name: SHIPPING_SERVICE_ADDR
   value: "shippingservice:50051"
 - name: CHECKOUT_SERVICE_ADDR
-  value: "checkoutservice:5050"
+  value: "checkoutservice:5050" 
 - name: AD_SERVICE_ADDR
-  value: "ad-service:9555"
+  value: "adservice:9555"
 
 serviceName: frontend-service
-servicePort: 80
+servicePort: 8080
 serviceType: NodePort

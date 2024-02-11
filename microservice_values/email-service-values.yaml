@@ -1,4 +1,4 @@
-appName: email-microservice
+appName: emailservice
 containerName: emial-app
 containerImage: ahmed0130/microservice-emailservice
 containerTag:  latest

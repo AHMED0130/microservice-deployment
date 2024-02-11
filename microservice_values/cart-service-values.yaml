@@ -1,6 +1,6 @@
-appName: cart-microservice
+appName: cartservice
 containerName: cart-app
-containerImage: ahmed0130/microservice-emailservice
+containerImage: ahmed0130/microservice-cartservice
 containerTag:  latest
 containerPort: 7070
 continerEnv:
